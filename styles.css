@@ -2,14 +2,27 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #f5f5dc;
 }
 .title {
   margin-top: 20px;
   font-size: 2rem;
+  color: #333;
 }
 .board {
-  border: solid black 2px;
+  border: solid #333 5px;
   height: 500px;
   width: 500px;
-  margin: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: grid;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.px:hover {
+  background-color: black;
 }
