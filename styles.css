@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.board {
+  border: solid black 2px;
+  height: 500px;
+  width: 500px;
+  margin: 40px;
+}
